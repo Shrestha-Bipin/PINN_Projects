@@ -1,0 +1,5 @@
+nvidia-modulus
+nvidia-modulus-sym
+numpy
+sympy
+matplotlib
