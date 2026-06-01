@@ -60,15 +60,3 @@ python spring_mass_solver.py
 
 Training settings are in `conf/config.yaml`.
 
-## Notes Before Pushing
-
-- Keep generated outputs, checkpoints, and notebook checkpoints out of Git. The `.gitignore` file handles the common cases.
-- If this is part of a larger PINN learning collection, place this folder inside that repository, for example `PINN/spring_mass_modulus_sym/`.
-- If this project should be shared as a standalone example, use this folder as its own GitHub repository.
-
-## Suggested Future Improvements
-
-- Add an analytic solution validator for quantitative error tracking.
-- Add plots comparing the PINN prediction against the analytic displacement curves.
-- Move notebook experiments into an `notebooks/` folder if the repository grows.
-- Add a short environment note for CUDA, PyTorch, and Modulus Sym versions used during training.
