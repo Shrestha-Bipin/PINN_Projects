@@ -90,14 +90,3 @@ The total loss is:
 loss = data_loss + 1000 * physics_loss
 ```
 
-## Suggested Improvements
-
-- Rename `netwons_law_of_cooling.py` to `newtons_law_of_cooling.py`.
-- Add CPU fallback support for machines without CUDA.
-- Save generated plots to an `outputs/` folder.
-- Move reusable model code into a `src/` folder if the project grows.
-- Add a `requirements.txt` file for reproducible setup.
-
-## License
-
-No license has been specified yet.
